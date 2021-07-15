@@ -1,24 +1,24 @@
 <template>
 <div>
   <TabBar>
-    <tab-bar-item path="/home" activeColor="cornflowerblue">
-      <img src="@/assets/img/tabbar/shouye.svg" alt="" slot="item-icon">
-      <img src="@/assets/img/tabbar/shoyexuan.svg" alt="" slot="item-icon-active">
+    <tab-bar-item path="/home">
+      <img slot="item-icon" src="@/assets/img/tabbar/home.svg" alt="">
+      <img slot="item-icon-active" src="@/assets/img/tabbar/home_active.svg" alt="">
       <div slot="item-text">首页</div>
     </tab-bar-item>
-    <tab-bar-item path="/category" activeColor="cornflowerblue">
-      <img src="@/assets/img/tabbar/fenlei.svg" alt="" slot="item-icon">
-      <img src="@/assets/img/tabbar/fneleixuan.svg" alt="" slot="item-icon-active">
+    <tab-bar-item path="/category">
+      <img slot="item-icon" src="@/assets/img/tabbar/category.svg" alt="">
+      <img slot="item-icon-active" src="@/assets/img/tabbar/category_active.svg" alt="">
       <div slot="item-text">分类</div>
     </tab-bar-item>
-    <tab-bar-item path="/cart" activeColor="cornflowerblue">
-      <img src="@/assets/img/tabbar/gouwuche.svg" alt="" slot="item-icon">
-      <img src="@/assets/img/tabbar/gouwuchexuan.svg" alt="" slot="item-icon-active">
+    <tab-bar-item path="/cart">
+      <img slot="item-icon" src="@/assets/img/tabbar/shopcart.svg" alt="">
+      <img slot="item-icon-active" src="@/assets/img/tabbar/shopcart_active.svg" alt="">
       <div slot="item-text">购物车</div>
     </tab-bar-item>
-    <tab-bar-item path="/profile" activeColor="cornflowerblue">
-      <img src="@/assets/img/tabbar/wode.svg" alt="" slot="item-icon">
-      <img src="@/assets/img/tabbar/wodexuan.svg" alt="" slot="item-icon-active">
+    <tab-bar-item path="/profile">
+      <img slot="item-icon" src="@/assets/img/tabbar/profile.svg" alt="">
+      <img slot="item-icon-active" src="@/assets/img/tabbar/profile_active.svg" alt="">
       <div slot="item-text">我的</div>
     </tab-bar-item>
   </TabBar>
